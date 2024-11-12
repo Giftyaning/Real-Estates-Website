@@ -31,7 +31,7 @@ const Projects = () => {
 
   return (
     <div
-      className="container d-flex flex-column mx-auto py-4 md:px-20 w-100 overflow-hidden lg:px-32"
+      className="container d-flex flex-column align-items-center text-center mx-auto py-4 md:px-20 w-100 overflow-hidden lg:px-32"
       id="Projects"
     >
       <h1>
@@ -69,10 +69,11 @@ const Projects = () => {
 
       {/* Slider Container */}
       <div className="overflow-hidden">
-        <div className="d-flex flex-nowrap transition"
-            style={{
-                transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)`
-            }}
+        <div
+          className="d-flex flex-nowrap transition"
+          style={{
+            transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)`,
+          }}
         >
           {projectsData.map((project, index) => (
             <div
