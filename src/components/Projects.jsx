@@ -92,7 +92,7 @@ const Projects = () => {
                   <h2>{project.title}</h2>
                   <p>
                     {project.price}
-                    <span> | </span>
+                    <span className='px-1'> | </span>
                     {project.location}
                   </p>
                 </div>

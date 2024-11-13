@@ -15,11 +15,11 @@ const Testimonials = () => {
         Real Stories from Those Who Found Home With Us
       </p>
 
-      <div className="d-flex w-100 justify-content-center g-5 flex-wrap">
+      <div className="d-flex w-100 justify-content-center gap-5 flex-wrap overflow-hidden">
         {testimonialsData.map((testimonial, index) => (
           <div
             key={index}
-            className="mw-25 border border-shadow rounded px-5 py-5 text-center"
+            className="w-25 border border-shadow rounded px-5 py-5 text-center overflow-hidden"
           >
             <img
               className="w-5 h-5 rounded-full mx-auto mb-4"

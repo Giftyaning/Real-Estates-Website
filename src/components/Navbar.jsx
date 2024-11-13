@@ -9,9 +9,12 @@ const NavBar = () => {
       <Container className=" g-3">
         <img src={assets.logo} alt="Logo" />
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{
-          backgroundColor: 'white'
-        }}/>
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          style={{
+            backgroundColor: "white",
+          }}
+        />
 
         <Navbar.Collapse className="flex" id="basic-navbar-nav">
           <Nav className="me-auto justify-content-center w-100">
@@ -24,12 +27,14 @@ const NavBar = () => {
             <Nav.Link href="#Projects" style={{ color: "white" }}>
               Projects
             </Nav.Link>
-            <Nav.Link href="#Contact" style={{ color: "white" }}>
-              Contact
+            <Nav.Link href="#Testimonials" style={{ color: "white" }}>
+              Testimonials
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <button className="d-none d-lg-inline">Contact Us</button>
+        <a href="#Contact" className="btn rounded border text-white d-none d-lg-inline">
+          Contact Us
+        </a>
       </Container>
     </Navbar>
   );
