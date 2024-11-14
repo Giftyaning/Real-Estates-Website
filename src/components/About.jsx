@@ -8,7 +8,7 @@ const About = () => {
       id="About"
     >
       <h1 className="mb-3">
-        About <span className="text-decoration-underline">Our Brand</span>
+        About <span className="text-decoration-underline fw-lighter">Our Brand</span>
       </h1>
       <p className="text-secondary mw-100 mb-5">
         Passionate About Properties, Dedicated to Your Vision

@@ -31,11 +31,12 @@ const Projects = () => {
 
   return (
     <div
-      className="container d-flex flex-column align-items-center text-center mx-auto py-4 md:px-20 w-100 overflow-hidden lg:px-32"
+      className="container d-flex flex-column align-items-center text-center mx-auto py-4 md:px-20 w-100 overflow-hidden lg:px-32 mt-5"
       id="Projects"
     >
       <h1>
-        Projects <span className="text-decoration-underline">Completed</span>
+        Projects{" "}
+        <span className="text-decoration-underline fw-lighter">Completed</span>
       </h1>
       <p className="text-secondary mw-100 mb-5">
         Crafting Spaces, Builiding Legacies-Explore Our Portfolio
@@ -92,7 +93,7 @@ const Projects = () => {
                   <h2>{project.title}</h2>
                   <p>
                     {project.price}
-                    <span className='px-1'> | </span>
+                    <span className="px-1"> | </span>
                     {project.location}
                   </p>
                 </div>
