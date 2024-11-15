@@ -5,8 +5,9 @@ import { assets, testimonialsData } from '../assets/assets';
 const Testimonials = () => {
   return (
     <div
-      className="container d-flex flex-column align-items-center text-center mx-auto py-4 md:px-20 w-100 overflow-hidden lg:px-32 mt-5"
+      className="container d-flex flex-column align-items-center text-center mx-auto py-4 md:px-20 w-100 overflow-hidden lg:px-32"
       id="Testimonials"
+      style={{ marginTop: "10em" }}
     >
       <h1>
         Customer{" "}
