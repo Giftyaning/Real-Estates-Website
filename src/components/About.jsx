@@ -6,9 +6,11 @@ const About = () => {
     <div
       className="container d-flex flex-column align-items-center text-center mx-auto py-4 md:px-20 w-100 overflow-hidden lg:px-32"
       id="About"
+      style={{ marginTop: "10em" }}
     >
       <h1 className="mb-3">
-        About <span className="text-decoration-underline fw-lighter">Our Brand</span>
+        About{" "}
+        <span className="text-decoration-underline fw-lighter">Our Brand</span>
       </h1>
       <p className="text-secondary mw-100 mb-5">
         Passionate About Properties, Dedicated to Your Vision
